@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="617.0" prefWidth="332.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.NPEController">
+  <ListView fx:id="listView">
+    <VBox.margin>
+      <Insets bottom="10.0" left="16.0" right="16.0" top="10.0" />
+    </VBox.margin>
+  </ListView>
+</VBox>

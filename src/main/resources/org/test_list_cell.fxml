@@ -1,0 +1,25 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<fx:root type="javafx.scene.control.ListCell"
+         prefHeight="100.0"
+         prefWidth="280.0"
+         xmlns="http://javafx.com/javafx/11.0.1"
+         xmlns:fx="http://javafx.com/fxml/1">
+    <graphic>
+        <AnchorPane prefHeight="100.0" prefWidth="280.0">
+            <Label fx:id="label" prefHeight="90.0" prefWidth="280.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <MenuButton fx:id="menuBtn" layoutX="211.0" layoutY="50.0" AnchorPane.bottomAnchor="28.0" AnchorPane.rightAnchor="14.0">
+                <items>
+                    <MenuItem text="Update" />
+                    <MenuItem fx:id="delete" text="Delete" />
+                </items>
+            </MenuButton>
+        </AnchorPane>
+    </graphic>
+</fx:root>
